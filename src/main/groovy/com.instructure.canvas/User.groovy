@@ -20,5 +20,6 @@ class User {
     String time_zone
     String locale
     String last_login
+    String effective_locale
     def enrollments
 }
