@@ -31,6 +31,7 @@ class Course {
     Long grading_standard_id
     List<Section> sections
     List<GroupCategory> groupCategories
+    String course_format
     def calendar
     Boolean blueprint
     def blueprint_restrictions
